@@ -2,6 +2,31 @@
 
 面向博士大论文写作、整合、结构重构、证据审计、语言优化与最终定稿的模块化 Agent Skills。
 
+[![skills.sh](https://skills.sh/b/syc9336-rgb/doctoral-dissertation-skills)](https://skills.sh/syc9336-rgb/doctoral-dissertation-skills)
+[![Latest Release](https://img.shields.io/github/v/release/syc9336-rgb/doctoral-dissertation-skills?display_name=tag&sort=semver)](https://github.com/syc9336-rgb/doctoral-dissertation-skills/releases/latest)
+[![Apache-2.0](https://img.shields.io/github/license/syc9336-rgb/doctoral-dissertation-skills)](LICENSE)
+
+> 不是替你虚构论文内容，而是把真实研究材料组织成可审计、可重构、可定稿的博士论文工作流。
+
+## 先试用
+
+安装后，在 Codex、Claude Code 或其他支持 Agent Skills 的工具中输入：
+
+```text
+使用 doctoral-dissertation skill。
+先读取当前项目真实材料，建立 Frozen Facts Table、
+Claim–Evidence Matrix 和 RQ Closure Matrix。
+不要继承上一项目的案例、样本、变量或研究结构，
+再根据真实证据重建博士论文结构。
+```
+
+## 一条命令安装
+
+```bash
+npx skills add syc9336-rgb/doctoral-dissertation-skills \
+  --skill doctoral-dissertation --yes --copy
+```
+
 当前包含：
 
 - `doctoral-dissertation`：博士大论文全流程写作、结构、语言、证据与定稿 Skill。
@@ -51,8 +76,6 @@ doctoral-dissertation-skills/
 
 ### 使用 `npx skills`
 
-仓库发布到 GitHub 后，可将下面的 `syc9336-rgb` 替换为实际用户名。
-
 查看可安装 Skill：
 
 ```bash
@@ -101,6 +124,24 @@ Claim–Evidence Matrix 和 RQ Closure Matrix。
 证据充分的地方不要因为过度克制而削弱理论判断。
 ```
 
+## 适合哪些任务
+
+- 从真实材料重建博士论文总体结构；
+- 重构章节、节和段落的功能边界；
+- 建立研究问题、证据和核心论断之间的闭环；
+- 组织文献综述、理论框架与研究设计；
+- 分离并整合方法、结果与讨论；
+- 审计图表、附录、脚注、引用和多语言版本；
+- 在答辩或提交前执行完整性与一致性检查。
+
+## 贡献与反馈
+
+欢迎通过 [Issues](https://github.com/syc9336-rgb/doctoral-dissertation-skills/issues)、
+[Discussions](https://github.com/syc9336-rgb/doctoral-dissertation-skills/discussions)
+和 Pull Request 提交问题、脱敏案例与改进建议。
+
+反馈时请尽量说明：使用的任务、输入材料类型、期望结果、实际结果，以及是否可以公开复现。
+
 ## 核心原则
 
 - 真实性高于目录完整性；
@@ -120,3 +161,4 @@ Claim–Evidence Matrix 和 RQ Closure Matrix。
 ## License
 
 Apache License 2.0。详见 [LICENSE](LICENSE) 和 [NOTICE](NOTICE)。
+
