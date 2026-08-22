@@ -1,0 +1,12 @@
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.tmp
+__pycache__/
+*.pyc
+.venv/
+venv/
+dist/
+build/

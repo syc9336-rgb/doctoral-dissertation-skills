@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this Skill in academic or research workflows, please cite this repository."
+title: "Doctoral Dissertation Skills"
+type: software
+authors:
+  - family-names: "Song"
+    given-names: "Yuchen"
+year: 2026
+license: Apache-2.0
+version: 1.1.0
+repository-code: "https://github.com/syc9336-rgb/doctoral-dissertation-skills"
